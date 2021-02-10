@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "gifts"
+  "defaultProject": "gifts",
+  "cli": {
+    "analytics": "5a1abf22-fc34-4297-ba00-8a21f10bf04e"
+  }
 }

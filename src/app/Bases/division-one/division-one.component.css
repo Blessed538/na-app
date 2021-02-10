@@ -1,0 +1,72 @@
+.section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.pe-5 {
+  padding-right: 3rem !important;
+}
+
+.sidebar-box {
+  margin-bottom: 30px;
+  padding: 25px;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+  background: #fff;
+}
+
+.sidebar-box h3,
+.sidebar-box .h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+.logo {
+  font-family: "Montserrat", sans-serif;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+.pt-5 {
+  padding-top: 3rem !important;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.sidebar-box *:last-child {
+  margin-bottom: 0;
+}
+
+.search-form {
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.search-form .icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.search-form .form-group {
+  position: relative;
+}
+
+.sidebar-box *:last-child {
+  margin-bottom: 0;
+}
