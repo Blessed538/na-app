@@ -75,6 +75,44 @@
   font-size: 15px;
 }
 
+h1.special-heading {
+  font-size: 63px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 80%;
+  overflow-wrap: break-word;
+}
+
+.ls h1,
+.ls h2,
+.ls h3,
+.ls h4,
+.ls h5,
+.ls h6 {
+  color: rgb(19, 30, 37);
+}
+
+.response,
+.color-main,
+h1.color-main {
+  color: rgb(244, 202, 89);
+  border-color: rgb(244, 202, 89);
+}
+
+h1.special-heading.text-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1440px) {
+  h1.special-heading {
+    max-width: 85%;
+  }
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }

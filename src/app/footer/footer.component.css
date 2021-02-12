@@ -1,0 +1,50 @@
+.page_footer {
+  background-color: rgb(13, 22, 27);
+  position: relative;
+  overflow: hidden;
+}
+
+.page_footer .widget {
+  margin-bottom: 0px;
+}
+
+.widget {
+  position: relative;
+}
+
+.page_footer .widget > h3,
+.page_footer .widget .widget-title {
+  color: rgb(244, 202, 89);
+  margin-bottom: 1.9em;
+  margin-top: 24px;
+  text-transform: capitalize;
+}
+
+.widget > h3,
+.widget .widget-title {
+  color: rgb(19, 30, 37);
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1;
+  margin-bottom: 1.25em;
+}
+
+.page_footer .side-icon-box {
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 0px 0px 14px;
+}
+@media (min-width: 1200px) {
+  .side-icon-box {
+    margin-bottom: 50px;
+  }
+}
+
+.side-icon-box {
+  margin: 15px 0px 32px;
+}
+.media {
+  display: flex;
+  align-items: flex-start;
+}

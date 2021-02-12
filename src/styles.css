@@ -65,6 +65,14 @@ h6 {
   padding-bottom: 30px;
 }
 
+.sidebar-box {
+  margin-bottom: 30px;
+  padding: 25px;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+  background: #fff;
+}
 #preloader {
   position: fixed;
   top: 0;

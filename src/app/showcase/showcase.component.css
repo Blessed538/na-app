@@ -45,7 +45,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #106eea;
+  background: rgb(13, 22, 27);
   top: 0;
   border-radius: 0px;
 }
@@ -85,6 +85,63 @@ section {
 
 .featured-services .icon-box:hover .icon i {
   color: #fff;
+}
+
+#box_wrapper > section,
+#box_wrapper > div > section {
+  overflow: hidden;
+}
+
+.fw-divider-space {
+  clear: both;
+  width: 100%;
+}
+
+#box_wrapper > section,
+#box_wrapper > div > section {
+  clear: both;
+  position: relative;
+}
+
+h1.special-heading {
+  font-size: 63px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 80%;
+  overflow-wrap: break-word;
+}
+
+.ds {
+  background-color: rgb(19, 30, 37);
+  color: rgb(255, 255, 255);
+}
+
+section {
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .cover-image.s-cover-left {
+    height: 70%;
+    left: -145px;
+    width: 65%;
+  }
+}
+@media (max-width: 1679px) {
+  .cover-image.s-cover-left {
+    height: 81%;
+    left: -145px;
+    width: 65%;
+  }
+}
+
+@media (max-width: 1440px) {
+  h1.special-heading {
+    max-width: 85%;
+  }
 }
 
 @media (min-width: 1024px) {
