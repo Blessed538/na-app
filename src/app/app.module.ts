@@ -1,38 +1,41 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
-import { InfoComponent } from './info/info.component';
-import { DivisionOneComponent } from './Bases/division-one/division-one.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { DivisionsComponent } from './divisions/divisions.component';
 import { FooterComponent } from './footer/footer.component';
-import { DivsionSevenComponent } from './Bases/divsion-seven/divsion-seven.component';
-import { DivsionEightComponent } from './Bases/divsion-eight/divsion-eight.component';
-import { DivsionTwoComponent } from './Bases/divsion-two/divsion-two.component';
-import { DivisionThreeComponent } from './Bases/division-three/division-three.component';
-import { DivisionSixComponent } from './Bases/division-six/division-six.component';
-import { DivisionEightyOneComponent } from './Bases/division-eighty-one/division-eighty-one.component';
-import { DivisionEightySecondComponent } from './Bases/division-eighty-second/division-eighty-second.component';
+import { ViewSingleDivisionComponent } from './view-single-division/view-single-division.component';
+import { RegisterDivisionComponent } from './register-division/register-division.component';
+import { ViewSingleUnitComponent } from './view-single-unit/view-single-unit.component';
+import { CreateDivisionComponent } from './create-division/create-division.component';
+import { CreateUnitComponent } from './create-unit/create-unit.component';
+import { DeploymentListsComponent } from './deployment-lists/deployment-lists.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ShowcaseComponent,
-    InfoComponent,
-    DivisionOneComponent,
+    RegisterComponent,
+    LoginComponent,
+    DivisionsComponent,
     FooterComponent,
-    DivsionSevenComponent,
-    DivsionEightComponent,
-    DivsionTwoComponent,
-    DivisionThreeComponent,
-    DivisionSixComponent,
-    DivisionEightyOneComponent,
-    DivisionEightySecondComponent,
+    ViewSingleDivisionComponent,
+    RegisterDivisionComponent,
+    ViewSingleUnitComponent,
+    CreateDivisionComponent,
+    CreateUnitComponent,
+    DeploymentListsComponent,
+    SidebarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, ModalModule.forRoot(), AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

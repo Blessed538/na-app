@@ -1,27 +1,28 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DivisionOneComponent } from './Bases/division-one/division-one.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
-import { FooterComponent } from './footer/footer.component';
-import { DivsionEightComponent } from './Bases/divsion-eight/divsion-eight.component';
-import { DivsionSevenComponent } from './Bases/divsion-seven/divsion-seven.component';
-import { DivisionSixComponent } from './Bases/division-six/division-six.component';
-import { DivisionEightyOneComponent } from './Bases/division-eighty-one/division-eighty-one.component';
-import { DivisionEightySecondComponent } from './Bases/division-eighty-second/division-eighty-second.component';
-import { DivisionThreeComponent } from './Bases/division-three/division-three.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { DivisionsComponent } from './divisions/divisions.component';
+import { ViewSingleDivisionComponent } from './view-single-division/view-single-division.component';
+import { ViewSingleUnitComponent } from './view-single-unit/view-single-unit.component';
+import { CreateDivisionComponent } from './create-division/create-division.component';
+import { CreateUnitComponent } from './create-unit/create-unit.component';
+import { DeploymentListsComponent } from './deployment-lists/deployment-lists.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: ShowcaseComponent },
-  { path: 'division-one', component: DivisionOneComponent },
-  { path: 'division-two', component: DivisionOneComponent },
-  { path: 'division-eight', component: DivsionEightComponent },
-  { path: 'division-eighty-one', component: DivisionEightyOneComponent },
-  { path: 'division-eighty-second', component: DivisionEightySecondComponent },
-  { path: 'division-six', component: DivisionSixComponent },
-  { path: 'division-seven', component: DivsionSevenComponent },
-  { path: 'division-three', component: DivisionThreeComponent },
-  { path: 'footer', component: FooterComponent },
+  { path: '', redirectTo: 'showcase', pathMatch: 'full' },
+  { path: 'showcase', component: ShowcaseComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'divisions', component: DivisionsComponent },
+  { path: 'single-div', component: ViewSingleDivisionComponent },
+  { path: 'single-unit', component: ViewSingleUnitComponent },
+  { path: 'create-div', component: CreateDivisionComponent },
+  { path: 'create-unit', component: CreateUnitComponent },
+  { path: 'deployed-lists', component: DeploymentListsComponent },
+
+  // { path: 'divisions/view/:id', component: ViewSingleDivisionComponent },
 ];
 
 @NgModule({
